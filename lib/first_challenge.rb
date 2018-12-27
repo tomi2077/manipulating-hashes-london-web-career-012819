@@ -17,10 +17,11 @@ def first_challenge
     data.each do |attribute, value|
       if attribute == :favorite_icecream_flavors
         if :favorite_icecream_flavors.include? "strawberry"
-          
-    
-
-
+          :favorite_icecream_flavors.delete("strawberry")
+        end
+      end
+    end
+  
   #remember to return your newly altered contacts hash!
   contacts
 end

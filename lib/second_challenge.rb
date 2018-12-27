@@ -8,7 +8,8 @@ def second_challenge
   
   groceries.each do |category,item|
     item.each do |food|
-      groceries.flatten(category)
-    category.value
+      item.flatten(food)
+    end
+  groceries.values
   end
 end

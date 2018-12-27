@@ -7,7 +7,7 @@ def second_challenge
   }
   
   groceries.each do |category|
+    category.flatten
     category.values
   end
-  category
 end

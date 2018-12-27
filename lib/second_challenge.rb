@@ -9,4 +9,5 @@ def second_challenge
   groceries.each do |category|
     category.values
   end
+  category
 end
